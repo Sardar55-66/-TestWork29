@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import styles from './Loader.module.scss';
+import styles from '../styles/Loader.module.scss';
 
 export default function Loader({ onFinish }: { onFinish: () => void }) {
   const loaderRef = useRef<HTMLDivElement>(null);

@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { AppProps } from 'next/app';
 import Loader from '@/components/Loader';
-import '../styles/globals.scss';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState(true);
